@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vazifa */
+
+.container{
+    display: flex;
+    max-width: 800px ;
+    margin: auto;
+    margin-top: 300px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0  rgb(212, 212, 212);
+    justify-content: space-between;
+}
+
+.email input{
+    display: flex;
+    border: none;
+    padding: 10px;
+}
+
+.text button{
+    display: flex;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 180, 192);
+}
+
+/* Dars */
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 600px;
+    gap: 20px;
+    background-color: #e3e3e3;
+}
+
+.container1 li{
+    /* width: 150px; */
+    height: 150px;
+    background-color: rebeccapurple;
+}
+
+.center-container{
+    height: 100vh;
+    background-color: #333;
+    margin-top: 200px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    position: relative;
+}
+
+.center-item{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+body{
+    margin: 200px;
+}
+
+.over-container{
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    overflow: auto;
+
+    width: 600px;
+    height: 400px;
+    background-color: #e3e3e3;
+}
+
+/* ? PseudoClasses */
+
+a{
+    color: red;
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: aqua;
+}
+
+.sbm{
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+/* Hover */
+
+.sbm:hover{
+    color: blue;
+    background-color: #fff;
+
+}
+
+.nav-container{
+    margin-top: 20px;
+    width: 200px;
+}
+.nav-container button{
+    width: 100%;
+    padding: 10px;
+}
+
+/* Active */
+
+.nav-container button:active{
+    color: blue;
+    font-size: 25px;
+}
+
+.nav-container ul{
+    list-style: none;
+    width: 100%;
+    display: none;
+}
+
+.nav-container ul li{
+    margin-bottom: 10px;
+    background-color: #e3e3e3;
+    padding: 10px;
+}
+
+.nav-container ul li:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* .nav-container ul li:nth-child(2) {
+     background-color: red;
+} */
+
+
+/* .nav-container ul li:first-child {
+     background-color: red;
+} */
+
+/* .nav-container ul li:last-child {
+     background-color: red;
+} */
+
+/* .nav-container ul li:nth-child(even) {
+     background-color: red;
+} */
+
+/* ? Hover 1 */
+.nav-container:hover ul {
+     display: block;
+}
+
+input {
+
+     padding: 20px; 
+}
+
+
+input:focus {
+     background-color: red;
+}
